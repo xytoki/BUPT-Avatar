@@ -1,16 +1,19 @@
 <template>
     <div id="app">
         <h1 class="pagetitle">国庆头像</h1>
-        <app-main/>
+        <app-main @save="this.saveImage=$event"/>
+        <app-save @close="this.saveImage=''" :image="saveImage" v-show="saveImage!=''"/>
     </div>
 </template>
 
 <script>
 import appMain from './components/main.vue'
+import appSave from './components/save.vue'
 export default {
     name: 'app',
     data(){
         return{
+            saveImage:""
         }
     },
     components: {
