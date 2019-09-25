@@ -5,6 +5,7 @@
         <transition name="el-zoom-in-top">
             <app-save @close="saveImage=''" :image="saveImage" v-show="saveImage!=''"/>
         </transition>
+        <footer class="copyright">@BYR Team:xyToki</footer>
     </div>
 </template>
 
@@ -53,5 +54,15 @@ html,body{
     margin-top: 1em;
     color: #ffe44f;
     font-weight: normal;
+}
+.copyright {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 </style>
