@@ -10,5 +10,8 @@ module.exports = {
         "styleLibraryName": "theme-chalk"
       }
     ]
+  ],
+  "ignore": [
+    "./src/fabric.js"
   ]
 }

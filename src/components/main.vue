@@ -50,7 +50,7 @@
 <script>
     import AvatarCropper from "vue-avatar-cropper"
     import {heads,icons} from '@/heads'
-    import {fabric} from 'fabric-browseronly'
+    import {fabric} from '@/fabric'
     export default {
         components: { AvatarCropper },
         data(){
