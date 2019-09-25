@@ -22,7 +22,7 @@
 
             <section class="choice-box">
                 <div class="choice-warp">
-                    <div :class="{active:activeHead==a}" class="choice-icon" :key="'icon'+a" @click="addIcon(a)" v-for="(i,a) in icons" >
+                    <div class="choice-icon" :key="'icon'+a" @click="addIcon(a)" v-for="(i,a) in icons" >
                         <img class="choice-img" :src="i.preview">
                     </div>
                 </div>
