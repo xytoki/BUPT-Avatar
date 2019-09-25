@@ -9,6 +9,8 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "element-ui": "^2.4.5",
+    "fabric-browseronly": "^3.2.0",
+    "jsdom": "^15.1.1",
     "vue": "^2.6.10",
     "vue-avatar-cropper": "^1.0.5"
   },

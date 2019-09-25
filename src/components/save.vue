@@ -30,7 +30,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 3;
+    z-index: 10;
     background: rgba(0,0,0,.5);
 }
 .save-box {
