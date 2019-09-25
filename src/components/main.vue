@@ -177,4 +177,19 @@
     color: #fff;
     margin-top: 5px;
 }
+main::v-deep{
+    .avatar-cropper .avatar-cropper-container .avatar-cropper-footer .avatar-cropper-btn:hover {
+        background-color: #e56b57;
+        color: #fff;
+    }
+    .cropper-line,.cropper-point.point-se::before,.cropper-point {
+        background-color: #ffde2b !important;
+    }
+    .cropper-view-box{
+        outline:#ffde2b !important;
+    }
+    .avatar-cropper .avatar-cropper-overlay {
+        background: rgba(0,0,0,.5);
+    }
+}
 </style>
