@@ -25,7 +25,7 @@
 
 <style lang="scss" scoped>
 .save-wrap {
-    position: absolute;
+    position: fixed;;
     top: 0;
     left: 0;
     right: 0;
@@ -39,7 +39,8 @@
     left: 0;
     right: 0;
     .save-image {
-        width: 90%;
+        width: 350px;
+        max-width: 90%;
         text-align: center;
         margin: 0 auto;
         background: #fff;
@@ -66,7 +67,7 @@
     color: #c65700;
     height: 40px;
     line-height: 30px;
-    border-radius: 30px;
+    border-radius: 10px;
     margin-bottom: 5px;
     font-size: 16px;
 }

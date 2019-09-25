@@ -164,7 +164,7 @@
     margin: 0 30px;
     background: #ffde2b;
     color: #c65700;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 0 10px;
     -webkit-appearance: none;
     display: block;
