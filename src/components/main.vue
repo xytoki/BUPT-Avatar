@@ -23,6 +23,9 @@
                 <button @click="saveImage" class="save-btn">
                     保存图片
                 </button>
+                <div class="save-tips">
+                    Tips：点击头像框可更换头像图片！
+                </div>
             </section>
             
             <!--Avatar cropper-->
@@ -168,5 +171,10 @@
     width: calc(100% - 60px);
     border: 0;
     font-size: 17px;
+}
+.save-tips {
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
 }
 </style>
