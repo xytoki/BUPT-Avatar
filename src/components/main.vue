@@ -162,6 +162,7 @@
         height: 100%;
         display: block;
         position: absolute;
+        border-radius: 28px;
         left:0;
         top:0;
         z-index:2;
@@ -246,7 +247,7 @@ main::v-deep{
     .canvas-container,.canvas-container .fb-canvas {
         width: 100% !important;
         height: 100% !important;
-        border-radius: 15px;
+        border-radius: 28px;
     }
     
 </style>
