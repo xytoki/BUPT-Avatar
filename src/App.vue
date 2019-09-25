@@ -1,8 +1,10 @@
 <template>
     <div id="app">
         <h1 class="pagetitle">国庆头像</h1>
-        <app-main @save="this.saveImage=$event"/>
-        <app-save @close="this.saveImage=''" :image="saveImage" v-show="saveImage!=''"/>
+        <app-main @save="saveImage=$event"/>
+        <transition name="el-zoom-in-top">
+            <app-save @close="saveImage=''" :image="saveImage" v-show="saveImage!=''"/>
+        </transition>
     </div>
 </template>
 
@@ -17,7 +19,8 @@ export default {
         }
     },
     components: {
-        appMain
+        appMain,
+        appSave
     }
 }
 </script>
