@@ -1,28 +1,51 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+        <h1 class="pagetitle">国庆头像</h1>
+        <app-main/>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import appMain from './components/main.vue'
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
+    name: 'app',
+    data(){
+        return{
+        }
+    },
+    components: {
+        appMain
+    }
 }
 </script>
 
 <style lang="scss">
+html,body{
+  margin: 0;
+  padding: 0;
+}
+#app, body, html {
+    min-height: 100%;
+    width: 100%;
+    -webkit-touch-callout: none;
+    user-select: none;
+    background-color: #ff4b3d;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+    max-width: 500px;
+    margin: 0 auto;
+    background-image: url(~@/assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pagetitle{
+    text-align: center;
+    margin-top: 1em;
+    color: #ffe44f;
+    font-weight: normal;
 }
 </style>
