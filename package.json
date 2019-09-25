@@ -9,7 +9,8 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "element-ui": "^2.4.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-avatar-cropper": "^1.0.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
