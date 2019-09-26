@@ -1,6 +1,5 @@
 <template>
         <main>
-
             <section class="avatar-box" >
                 <div class="noImage upload-box" v-show="!hasImage">
                     <div class="upload-box">
@@ -48,7 +47,7 @@
 </template>
 
 <script>
-    import AvatarCropper from "vue-avatar-cropper"
+    import AvatarCropper from "@/components/AvatarCropper.vue"
     import {heads,icons} from '@/heads'
     //import {fabric} from '@/fabric'
     export default {
