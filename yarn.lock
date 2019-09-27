@@ -3719,6 +3719,11 @@ hoopy@^0.1.4:
   resolved "https://registry.npm.taobao.org/hoopy/download/hoopy-0.1.4.tgz#609207d661100033a9a9402ad3dea677381c1b1d"
   integrity sha1-YJIH1mEQADOpqUAq096mdzgcGx0=
 
+horwheel@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/horwheel/download/horwheel-1.0.1.tgz#eaa70dc697ef32fd0334809eb41c7e5ef1ba962d"
+  integrity sha1-6qcNxpfvMv0DNICetBx+XvG6li0=
+
 hosted-git-info@^2.1.4:
   version "2.8.4"
   resolved "https://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.8.4.tgz#44119abaf4bc64692a16ace34700fed9c03e2546"

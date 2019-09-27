@@ -12,7 +12,7 @@
             </section>
 
             <section class="choice-box">
-                <div class="choice-warp">
+                <div class="choice-warp" v-hscroll>
                     <div :class="{active:activeHead==a}" class="choice-icon" :key="'head'+a" @click="activeHead=a" v-for="(i,a) in head" >
                         <img class="choice-img" :src="i.preview">
                     </div>
@@ -20,7 +20,7 @@
             </section>
 
             <section class="choice-box">
-                <div class="choice-warp">
+                <div class="choice-warp" v-hscroll>
                     <div class="choice-icon" :key="'icon'+a" @click="addIcon(a)" v-for="(i,a) in icons" >
                         <img class="choice-img" :src="i.preview">
                     </div>
@@ -49,9 +49,17 @@
 <script>
     import AvatarCropper from "@/components/AvatarCropper.vue"
     import {heads,icons} from '@/heads'
+    import horwheel from 'horwheel'
     //import {fabric} from '@/fabric'
     export default {
         components: { AvatarCropper },
+        directives:{
+            hscroll:{
+                inserted: function (el, binding) {
+                    horwheel(el);
+                }
+            }
+        },
         data(){
             return{
                 hasImage:false,
@@ -176,6 +184,8 @@
     .choice-warp {
         width: 100%;
         overflow-x: auto;
+        word-break: keep-all;
+        white-space: nowrap;
     }
     .choice-icon {
         padding: 10px 5px;
