@@ -191,11 +191,14 @@
         padding: 10px 5px;
         display: inline-block;
         overflow: hidden;
+        height: 50px;
+        line-height: 50px;
+        vertical-align: middle;
         img{
             border-radius: 7px;
             width: 50px;
-            height: 50px;
-            display:block;
+            height: auto;
+            display:inline-block;
         }
         &.active {
             background: rgba(255,255,255,0.3);
