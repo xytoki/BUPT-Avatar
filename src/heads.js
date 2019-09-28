@@ -5,6 +5,7 @@ import head3 from '@/assets/head/head3.png'
 import b1 from '@/assets/head/b1.png'
 import b2 from '@/assets/head/b2.png'
 import b3 from '@/assets/head/b3.png'
+import b4 from '@/assets/head/b4.png'
 import n1 from '@/assets/head/n1.png'
 import n2 from '@/assets/head/n2.png'
 import c1 from '@/assets/head/c1.png'
@@ -44,6 +45,11 @@ export var heads =[
     {
         src:b3,
         preview:b3,
+        params:[0,0,512,512]
+    },
+    {
+        src:b4,
+        preview:b4,
         params:[0,0,512,512]
     }
 ]
