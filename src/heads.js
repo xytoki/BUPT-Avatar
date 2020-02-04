@@ -6,6 +6,7 @@ import g2 from '@/assets/head/rg2.png'
 import g3 from '@/assets/head/rg3.png'
 import n1 from '@/assets/head/n1.png'
 import n2 from '@/assets/head/n2.png'
+import n3 from '@/assets/head/n3.png'
 export var heads =[
     {
         src:n1,
@@ -15,6 +16,11 @@ export var heads =[
     {
         src:n2,
         preview:n2,
+        params:[0,0,512,512]
+    },
+    {
+        src:n3,
+        preview:n3,
         params:[0,0,512,512]
     }
 ]
