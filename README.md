@@ -1,29 +1,8 @@
-# 70avatar
+# BUPT-Avatar
 
-## Project setup
-```
-yarn install
-```
+北邮人头像生成器
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+如需定制头像框和挂件，修改src/heads.js即可
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### License
+MIT
