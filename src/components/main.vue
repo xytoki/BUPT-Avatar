@@ -47,7 +47,7 @@
 </template>
 
 <script>
-    import AvatarCropper from "@/components/AvatarCropper.vue"
+    import AvatarCropper from "vue-avatar-cropper"
     import {heads,icons} from '@/heads'
     import horwheel from 'horwheel'
     //import {fabric} from '@/fabric'
