@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <h1 class="pagetitle">国庆头像</h1>
+        <h1 class="pagetitle">北邮口罩生成器</h1>
         <app-main @save="saveImage=$event"/>
         <transition name="el-zoom-in-top">
             <app-save @close="saveImage=''" :image="saveImage" v-show="saveImage!=''"/>
