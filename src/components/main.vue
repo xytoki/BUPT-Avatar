@@ -107,6 +107,9 @@
                 left: this.icons[i].x,
                 top: this.icons[i].y,
                 });
+                imgInstance.cornerSize=30;
+                imgInstance.rotatingPointOffset=50;
+                imgInstance.transparentCorners=false;
                 this.$fb.add(imgInstance);
             }
         },
